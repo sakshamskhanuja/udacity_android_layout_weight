@@ -6,6 +6,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!-- beach.jpg ImageView-->
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
