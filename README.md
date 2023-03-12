@@ -9,9 +9,14 @@ a child <b>View</b> in ```LinearLayout```.
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout...>
 
-    <ImageView android:layout_width="match_parent" android:layout_height="0dp"
-        android:layout_weight="1" android:contentDescription="@string/beach_description"
-        android:scaleType="centerCrop" android:src="@drawable/beach" />
+    <!-- beach.jpg ImageView-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/beach_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/beach" />
 
     ...
 </LinearLayout>
